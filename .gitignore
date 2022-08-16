@@ -1,0 +1,7 @@
+
+*.db-wal
+.vs/HexLab/v17/.suo
+*.db
+*.db-shm
+*.ipch
+*.opendb
