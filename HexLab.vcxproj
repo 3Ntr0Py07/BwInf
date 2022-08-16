@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\SFML-cpp.2.5.1\build\native\SFML-cpp.props" Condition="Exists('packages\SFML-cpp.2.5.1\build\native\SFML-cpp.props')" />
+  <Import Project="packages\SFML-cpp.redist.2.5.1.1\build\native\SFML-cpp.redist.props" Condition="Exists('packages\SFML-cpp.redist.2.5.1.1\build\native\SFML-cpp.redist.props')" />
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -150,11 +152,11 @@
     <ClCompile Include="..\..\..\..\source\repos\HexLab\Type.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\ClassLessFunc.hpp" />
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\constants.hpp" />
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\enums.hpp" />
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\HModules.hpp" />
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\structs.hpp" />
+    <ClInclude Include="..\..\..\..\source\repos\HexLab\ClassLessFunc.cpp" />
+    <ClInclude Include="..\..\..\..\source\repos\HexLab\constants.cpp" />
+    <ClInclude Include="..\..\..\..\source\repos\HexLab\enums.cpp" />
+    <ClInclude Include="..\..\..\..\source\repos\HexLab\HModules.cpp" />
+    <ClInclude Include="..\..\..\..\source\repos\HexLab\structs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -176,5 +178,7 @@
     <Error Condition="!Exists('packages\sfml-system.2.4.2.0\build\native\sfml-system.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\sfml-system.2.4.2.0\build\native\sfml-system.targets'))" />
     <Error Condition="!Exists('packages\sfml-window.redist.2.4.2.0\build\native\sfml-window.redist.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\sfml-window.redist.2.4.2.0\build\native\sfml-window.redist.targets'))" />
     <Error Condition="!Exists('packages\sfml-window.2.4.2.0\build\native\sfml-window.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\sfml-window.2.4.2.0\build\native\sfml-window.targets'))" />
+    <Error Condition="!Exists('packages\SFML-cpp.redist.2.5.1.1\build\native\SFML-cpp.redist.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\SFML-cpp.redist.2.5.1.1\build\native\SFML-cpp.redist.props'))" />
+    <Error Condition="!Exists('packages\SFML-cpp.2.5.1\build\native\SFML-cpp.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\SFML-cpp.2.5.1\build\native\SFML-cpp.props'))" />
   </Target>
 </Project>
