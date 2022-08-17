@@ -1,4 +1,4 @@
-﻿  Cell.cpp
+﻿  HexLab.cpp
 C:\Users\Entropy\source\repos\HexLab\Line2.cpp(22,101): warning C4244: "Argument": Konvertierung von "double" in "T", möglicher Datenverlust
           with
           [
@@ -50,59 +50,7 @@ C:\Users\Entropy\source\repos\HexLab\Cell.cpp(56,21): warning C4244: "Argument":
 C:\Users\Entropy\source\repos\HexLab\Cell.cpp(90,36): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
 C:\Users\Entropy\source\repos\HexLab\Cell.cpp(93,62): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
 C:\Users\Entropy\source\repos\HexLab\Cell.cpp(93,44): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-  CellManager.cpp
-C:\Users\Entropy\source\repos\HexLab\Line2.cpp(22,101): warning C4244: "Argument": Konvertierung von "double" in "T", möglicher Datenverlust
-          with
-          [
-              T=float
-          ]
-C:\Users\Entropy\source\repos\HexLab\Line2.cpp(22,63): warning C4244: "Argument": Konvertierung von "double" in "T", möglicher Datenverlust
-          with
-          [
-              T=float
-          ]
-C:\Users\Entropy\source\repos\HexLab\Line2.cpp(24,96): warning C4244: "Argument": Konvertierung von "double" in "T", möglicher Datenverlust
-          with
-          [
-              T=float
-          ]
-C:\Users\Entropy\source\repos\HexLab\Line2.cpp(24,61): warning C4244: "Argument": Konvertierung von "double" in "T", möglicher Datenverlust
-          with
-          [
-              T=float
-          ]
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(55,61): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(55,42): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(58,42): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(61,60): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(61,42): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(64,60): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(64,42): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(67,61): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(67,42): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(70,35): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(73,58): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(73,42): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(81,53): warning C4244: "Argument": Konvertierung von "double" in "T", möglicher Datenverlust
-          with
-          [
-              T=float
-          ]
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(81,34): warning C4244: "Argument": Konvertierung von "double" in "T", möglicher Datenverlust
-          with
-          [
-              T=float
-          ]
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(93,42): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Border.cpp(93,30): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Cell.cpp(55,27): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Cell.cpp(55,24): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Cell.cpp(56,24): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Cell.cpp(56,21): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Cell.cpp(90,36): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Cell.cpp(93,62): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-C:\Users\Entropy\source\repos\HexLab\Cell.cpp(93,44): warning C4244: "Argument": Konvertierung von "double" in "float", möglicher Datenverlust
-  Code wird generiert...
+C:\Users\Entropy\source\repos\HexLab\HexLab.cpp(45,58): warning C4390: ";": Leere kontrollierte Anweisung aufgetreten; ist dies beabsichtigt?
   HexLab.vcxproj -> C:\Users\Entropy\OneDrive\Desktop\Dev\HexLab\x64\Debug\HexLab.exe
   C:\Users\Entropy\OneDrive\Desktop\Dev\HexLab\packages\SFML-cpp.redist.2.5.1.1\build\native\bin\x64\Debug\openal32.dll
   1 Datei(en) kopiert
