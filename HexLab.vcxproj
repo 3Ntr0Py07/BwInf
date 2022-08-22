@@ -146,17 +146,18 @@
     <ClCompile Include="..\..\..\..\source\repos\HexLab\CellManager.cpp" />
     <ClCompile Include="..\..\..\..\source\repos\HexLab\HexLab.cpp" />
     <ClCompile Include="..\..\..\..\source\repos\HexLab\Line2.cpp" />
-    <ClCompile Include="..\..\..\..\source\repos\HexLab\Point2.cpp" />
     <ClCompile Include="..\..\..\..\source\repos\HexLab\StateMap.cpp" />
-    <ClCompile Include="..\..\..\..\source\repos\HexLab\States.cpp" />
-    <ClCompile Include="..\..\..\..\source\repos\HexLab\Type.cpp" />
+    <ClCompile Include="..\..\..\..\source\repos\HexLab\States.hpp" />
+    <ClCompile Include="Point2.cpp" />
+    <ClCompile Include="States.cpp" />
+    <ClCompile Include="TypeConverter.cpp" />
+    <ClCompile Include="Type.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\ClassLessFunc.cpp" />
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\constants.cpp" />
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\enums.cpp" />
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\HModules.cpp" />
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\structs.cpp" />
+    <ClInclude Include="..\..\..\..\source\repos\HexLab\constants.hpp" />
+    <ClInclude Include="..\..\..\..\source\repos\HexLab\enums.hpp" />
+    <ClInclude Include="..\..\..\..\source\repos\HexLab\HModules.hpp" />
+    <ClInclude Include="..\..\..\..\source\repos\HexLab\structs.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\source\repos\HexLab\Type.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\source\repos\HexLab\Border.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
@@ -30,34 +27,40 @@
     <ClCompile Include="..\..\..\..\source\repos\HexLab\HexLab.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\source\repos\HexLab\Line2.cpp">
-      <Filter>Quelldateien</Filter>
+    <ClCompile Include="..\..\..\..\source\repos\HexLab\States.hpp">
+      <Filter>Headerdateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\source\repos\HexLab\Point2.cpp">
+    <ClCompile Include="..\..\..\..\source\repos\HexLab\Line2.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\source\repos\HexLab\StateMap.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\source\repos\HexLab\States.cpp">
+    <ClCompile Include="Point2.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Type.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeConverter.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="States.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\ClassLessFunc.cpp">
-      <Filter>Quelldateien</Filter>
+    <ClInclude Include="..\..\..\..\source\repos\HexLab\structs.hpp">
+      <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\structs.cpp">
-      <Filter>Quelldateien</Filter>
+    <ClInclude Include="..\..\..\..\source\repos\HexLab\enums.hpp">
+      <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\constants.cpp">
-      <Filter>Quelldateien</Filter>
+    <ClInclude Include="..\..\..\..\source\repos\HexLab\constants.hpp">
+      <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\enums.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\HModules.cpp">
-      <Filter>Quelldateien</Filter>
+    <ClInclude Include="..\..\..\..\source\repos\HexLab\HModules.hpp">
+      <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
