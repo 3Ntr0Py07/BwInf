@@ -1,6 +1,9 @@
 #pragma once
+#include <string>
+#include <cstring>
 
 namespace HexLab
+
 {
 	struct Point2
 	{
@@ -24,6 +27,13 @@ namespace HexLab
 		{
 			Point2 result;
 			result.setCoords(xarg, yarg);
+			return result;
+		}
+
+		std::string print()
+		{
+			std::string result;
+			result = "[" + std::to_string(this->x) + "," + std::to_string(this->y) + "]";
 			return result;
 		}
 

@@ -141,26 +141,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\source\repos\HexLab\Border.cpp" />
-    <ClCompile Include="..\..\..\..\source\repos\HexLab\Cell.cpp" />
-    <ClCompile Include="..\..\..\..\source\repos\HexLab\CellManager.cpp" />
-    <ClCompile Include="..\..\..\..\source\repos\HexLab\HexLab.cpp" />
-    <ClCompile Include="..\..\..\..\source\repos\HexLab\Line2.cpp" />
-    <ClCompile Include="..\..\..\..\source\repos\HexLab\StateMap.cpp" />
-    <ClCompile Include="..\..\..\..\source\repos\HexLab\States.hpp" />
+    <ClCompile Include="Border.cpp" />
+    <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="CellManager.cpp" />
+    <ClCompile Include="HexLab.cpp" />
+    <ClCompile Include="Line2.cpp" />
     <ClCompile Include="Point2.cpp" />
+    <ClCompile Include="StateMap.cpp" />
     <ClCompile Include="States.cpp" />
     <ClCompile Include="TypeConverter.cpp" />
     <ClCompile Include="Type.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\constants.hpp" />
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\enums.hpp" />
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\HModules.hpp" />
-    <ClInclude Include="..\..\..\..\source\repos\HexLab\structs.hpp" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ClInclude Include="constants.hpp" />
+    <ClInclude Include="enums.hpp" />
+    <ClInclude Include="HModules.hpp" />
+    <ClInclude Include="structs.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
